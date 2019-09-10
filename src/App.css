@@ -31,3 +31,51 @@
     transform: rotate(360deg);
   }
 }
+thead {color:green;}
+tbody {color:blue;}
+table, th, td {
+ border: 1px solid black;
+}
+td, th{
+ padding: 5px;
+}
+.header{
+  list-style-type: none;
+    /* float: left; */
+    display: flex;
+}
+
+.navigation{
+  background-color: #61dafb;
+}
+h2{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(76, 130, 175);
+}
+
+.submain1 ,.submain2{
+  width: 50%;
+  float: left;
+}
